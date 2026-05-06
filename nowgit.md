@@ -15,9 +15,9 @@
 
 | Page | URL | Status |
 |------|-----|--------|
-| Landing Page | https://asunnyboy861.github.io/SubWake/ | ⏳ Pending |
-| Support | https://asunnyboy861.github.io/SubWake/support.html | ⏳ Pending |
-| Privacy Policy | https://asunnyboy861.github.io/SubWake/privacy.html | ⏳ Pending |
+| Landing Page | https://asunnyboy861.github.io/SubWake/ | ✅ Active |
+| Support | https://asunnyboy861.github.io/SubWake/support.html | ✅ Active |
+| Privacy Policy | https://asunnyboy861.github.io/SubWake/privacy.html | ✅ Active |
 
 **Note**: Terms of Use not required for Paid Download apps.
 
