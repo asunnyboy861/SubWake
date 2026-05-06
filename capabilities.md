@@ -11,14 +11,14 @@ Based on operation guide analysis:
 ## Auto-Configured Capabilities
 | Capability | Status | Method |
 |------------|--------|--------|
-| Push Notifications | Configured | Xcode project (INFOPLIST key) |
-| iCloud (CloudKit) | Configured | Xcode project (entitlements) |
+| Push Notifications | ✅ Configured | Xcode project (INFOPLIST key) |
+| iCloud (CloudKit) | ✅ Configured | Xcode project (entitlements) |
 
 ## Manual Configuration Required
 | Capability | Status | Steps |
 |------------|--------|-------|
-| iCloud Container | Pending | 1. Open Xcode > Signing & Capabilities > + Capability > iCloud 2. Check CloudKit 3. Create container: iCloud.com.zzoutuo.SubWake 4. Deploy to production in CloudKit Dashboard |
-| Push Notifications Entitlement | Pending | 1. Open Xcode > Signing & Capabilities > + Capability > Push Notifications 2. Xcode will generate entitlements file automatically |
+| iCloud Container | ⏳ Pending | 1. Open Xcode > Signing & Capabilities > + Capability > iCloud 2. Check CloudKit 3. Create container: iCloud.com.zzoutuo.SubWake 4. Deploy to production in CloudKit Dashboard |
+| Push Notifications Entitlement | ⏳ Pending | 1. Open Xcode > Signing & Capabilities > + Capability > Push Notifications 2. Xcode will generate entitlements file automatically |
 
 ## No Configuration Needed
 - HealthKit: Not required
@@ -30,5 +30,5 @@ Based on operation guide analysis:
 - Background Modes: Not required (local notifications only)
 
 ## Verification
-- Build succeeded after configuration: Pending
-- All entitlements correct: Pending
+- Build succeeded after configuration: ✅
+- All entitlements correct: ⏳ Pending (manual iCloud container setup)

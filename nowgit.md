@@ -1,60 +1,48 @@
-# SubWake - Subscription Renewal Reminder Manager
+# Git Repositories
 
-> Smart subscription tracking and renewal reminders for iOS
+## Main App (iOS Application)
 
-## Overview
+| Item | Value |
+|------|-------|
+| **Repository Name** | SubWake |
+| **Git URL** | git@github.com:asunnyboy861/SubWake.git |
+| **Repo URL** | https://github.com/asunnyboy861/SubWake |
+| **Visibility** | Public |
+| **Primary Language** | Swift |
+| **GitHub Pages** | ✅ **ENABLED** (from `/docs` folder) |
 
-SubWake helps you never miss a subscription renewal again. Track all your subscriptions in one place, get timely reminders before charges hit, and take control of your recurring expenses.
+## Policy Pages (Deployed from Main Repository /docs)
 
-## Features
+| Page | URL | Status |
+|------|-----|--------|
+| Landing Page | https://asunnyboy861.github.io/SubWake/ | ⏳ Pending |
+| Support | https://asunnyboy861.github.io/SubWake/support.html | ⏳ Pending |
+| Privacy Policy | https://asunnyboy861.github.io/SubWake/privacy.html | ⏳ Pending |
 
-- **Dashboard Overview** - See your monthly and yearly subscription spending at a glance
-- **Smart Reminders** - Customizable notifications 1, 3, 7, 14, or 30 days before renewal
-- **Free Trial Tracking** - Get alerted before free trials convert to paid subscriptions
-- **Cancellation Deadlines** - Never miss a cancellation window again
-- **Price Change Detection** - Spot when services raise their prices
-- **Family Sharing** - Track subscriptions shared with family members
-- **Home Screen Widgets** - Quick glance at upcoming renewals
-- **iCloud Sync** - Keep your data in sync across all your Apple devices
-- **Zero Data Collection** - Your data stays on your device, always
+**Note**: Terms of Use not required for Paid Download apps.
 
-## Pricing
+## Repository Structure
 
-| Plan | Price | Details |
-|------|-------|---------|
-| One-Time Purchase | $3.99 | Full features, no subscription, lifetime updates |
-
-## Technical Stack
-
-- **Language**: Swift
-- **Framework**: SwiftUI
-- **Data**: SwiftData + CloudKit
-- **Notifications**: UserNotifications
-- **Widgets**: WidgetKit
-- **Minimum iOS**: 17.0
-
-## Repository
-
-- **GitHub**: [https://github.com/asunnyboy861/SubWake](https://github.com/asunnyboy861/SubWake)
-- **License**: Proprietary
-
-## Policy Pages
-
-- [Privacy Policy](https://asunnyboy861.github.io/SubWake/privacy.html)
-- [Terms of Service](https://asunnyboy861.github.io/SubWake/terms.html)
-- [Support](https://asunnyboy861.github.io/SubWake/support.html)
-
-## Contact
-
-- Email: asunnyboy861@gmail.com
-- GitHub: [@asunnyboy861](https://github.com/asunnyboy861)
-
-## Version History
-
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.0.0 | May 2025 | Initial release with core tracking, reminders, widgets |
-
----
-
-*Built with ❤️ for subscription-conscious users everywhere*
+```
+SubWake/
+├── SubWake/                           # iOS App Source Code
+│   ├── SubWake.xcodeproj/             # Xcode Project
+│   ├── SubWake/                       # Swift Source Files
+│   │   ├── Views/
+│   │   ├── Models/
+│   │   ├── Services/
+│   │   ├── ViewModels/
+│   │   ├── Utilities/
+│   │   └── Widgets/
+│   └── ...
+├── docs/                              # Policy Pages (GitHub Pages source)
+│   ├── index.html                     # Landing Page
+│   ├── support.html                   # Support Page
+│   └── privacy.html                   # Privacy Policy
+├── us.md                              # English Development Guide
+├── keytext.md                         # App Store Metadata
+├── capabilities.md                    # Capabilities Configuration
+├── icon.md                            # App Icon Details
+├── price.md                           # Pricing Configuration
+└── nowgit.md                          # This File
+```
